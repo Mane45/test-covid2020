@@ -5,31 +5,63 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
+    color: #454545;
 }
-.thead {
+#total {
+    position: relative;
+    float: left;
+    border-collapse: collapse;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 15px;
+}
+#total td, #total th {
+    border: 1px solid #ddd;
+    padding: 10px;   
+} 
+#total th {
+    background-color: red;
+    color: #fff;
+}
+#searchInput {
+    position: relative;
+    float: right;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #454545;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+}
+#thead {
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
 }
-.thead td, .thead th {
+#thead td, #thead th {
     border: 1px solid #ddd;
     padding: 10px;
-    text-align: center;
+    
 } 
-.thead tr:nth-child(even){
-      background-color: #f2f2f2;
+#thead tr:nth-child(even){
+    background-color: #f2f2f2;
 }
-.thead tr:hover {
+#thead tr:hover {
     background-color: #ddd;
     color: red;
 }
-.thead th {
+#thead th {
     padding-top: 15px;
     padding-bottom: 1p5x;
     background-color: #808080;
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold;  
 }
-.thead td {
+#thead td {
     font-size: 18px;
 }
