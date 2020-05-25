@@ -10,6 +10,7 @@ h1 {
 #total {
     position: relative;
     float: left;
+    left: 8.7%;
     border-collapse: collapse;
     width: 40%;
     margin: 20px;
@@ -29,7 +30,8 @@ h1 {
 #searchInput {
     position: relative;
     float: right;
-    width: 40%;
+    right: 15%;
+    width: 20%;
     margin: 20px;
     padding: 10px;
     font-size: 20px;
@@ -37,7 +39,7 @@ h1 {
     border: 1px solid #5a5a5a;
     border-radius: 5px;
 }
-#thead {
+/* #thead {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
@@ -64,4 +66,10 @@ h1 {
 }
 #thead td {
     font-size: 18px;
+} */
+.table {
+    position: absolute;
+    margin-top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
